@@ -1,6 +1,6 @@
 # Orion Research: Diabetic Retinopathy
 
-This project focuses on the application of Federated Learning (FL) for diabetic retinopathy image classification. The goal is to explore how different client sequencing strategies affect model performance, robustness, and generalization compared to centralized training.
+This project focuses on the application of Federated Learning (FL) for diabetic retinopathy image classification. The study investigates how different client sequencing strategies influence model performance, convergence behavior, robustness, and generalization compared to a centralized baseline.
 
 ---
 
@@ -8,99 +8,93 @@ This project focuses on the application of Federated Learning (FL) for diabetic 
 
 The main objectives of this research are:
 
-* To compare centralized learning and federated learning approaches in medical image classification.
-* To investigate the impact of client sequencing strategies in federated learning.
-* To evaluate robustness under different data distributions and client characteristics.
-* To analyze whether ordering clients based on loss or dataset size influences convergence and performance.
+- To establish a centralized learning baseline for diabetic retinopathy image classification.
+- To compare centralized learning and federated learning approaches in medical image classification.
+- To investigate the impact of client sequencing strategies in federated learning.
+- To evaluate whether ordering clients based on loss or dataset size affects convergence and overall performance.
+- To build a structured experimental workflow that supports future extensions such as robust aggregation and domain adaptation.
 
 ---
 
 ## 🧪 Experiment Design
 
-This project is structured into several controlled experiments:
+This project is organized into several controlled experiments:
 
-1. **Baseline (Centralized Learning)**
-   Training is performed on the entire dataset without any federated setup.
+1. **EDA (Exploratory Data Analysis)**
+   Preliminary dataset inspection, label distribution analysis, sample visualization, and validation of the global 80:20 split.
 
-2. **Federated Learning – Loss Ascending**
-   Clients are trained in order from lowest loss to highest loss (easy → hard).
+2. **Baseline (Centralized Learning)**
+   Training is performed using a global 80:20 train-validation split on the full dataset, without federated learning.
 
-3. **Federated Learning – Loss Descending**
-   Clients are trained in order from highest loss to lowest loss (hard → easy).
+3. **Federated Learning – Loss Ascending**
+   Clients are trained in order from lowest loss to highest loss *(easy → hard)*.
 
-4. **Federated Learning – Dataset Size Ascending**
-   Clients are trained from smallest dataset to largest dataset.
+4. **Federated Learning – Loss Descending**
+   Clients are trained in order from highest loss to lowest loss *(hard → easy)*.
 
-5. **Federated Learning – Dataset Size Descending**
-   Clients are trained from largest dataset to smallest dataset.
+5. **Federated Learning – Dataset Size Ascending**
+   Clients are trained from the smallest dataset to the largest dataset.
+
+6. **Federated Learning – Dataset Size Descending**
+   Clients are trained from the largest dataset to the smallest dataset.
 
 ---
 
 ## 📁 Project Structure
 
-```
+```text
 orion-fl-dr-research/
 │
-├── notebooks/              # Experiment notebooks
+├── notebooks/                      # Experiment and analysis notebooks
+│   ├── eda_aptos.ipynb
 │   ├── exp1_baseline.ipynb
 │   ├── exp2_fl_loss_asc.ipynb
 │   ├── exp3_fl_loss_desc.ipynb
 │   ├── exp4_fl_size_asc.ipynb
 │   └── exp5_fl_size_desc.ipynb
 │
-├── src/                    # Core implementation
+├── src/                            # Core implementation
 │   ├── models/
 │   ├── federated/
 │   ├── training/
 │   └── utils/
 │
-├── configs/                # Configuration files
-├── results/                # Logs and outputs
+├── configs/                        # Configuration files
+│
+├── results/                        # Logs, figures, and experiment outputs
+│   ├── eda/
+│   │   └── aptos/
+│   │       ├── figures/
+│   │       └── logs/
+│   │
+│   ├── exp1_baseline/
+│   │   └── mobilenet/
+│   │       ├── figures/
+│   │       ├── logs/
+│   │       └── models/
+│   │
+│   ├── exp2_fl_loss_asc/
+│   │   └── mobilenet/
+│   │       ├── figures/
+│   │       ├── logs/
+│   │       └── models/
+│   │
+│   ├── exp3_fl_loss_desc/
+│   │   └── mobilenet/
+│   │       ├── figures/
+│   │       ├── logs/
+│   │       └── models/
+│   │
+│   ├── exp4_fl_size_asc/
+│   │   └── mobilenet/
+│   │       ├── figures/
+│   │       ├── logs/
+│   │       └── models/
+│   │
+│   └── exp5_fl_size_desc/
+│       └── mobilenet/
+│           ├── figures/
+│           ├── logs/
+│           └── models/
 │
 └── README.md
-```
-
----
-
-## ⚙️ Workflow
-
-The development workflow follows a hybrid setup:
-
-* **VSCode** is used for development and code structuring.
-* **Google Colab** is used for running experiments with GPU support.
-* **GitHub** acts as the central synchronization and version control system.
-
-Typical workflow:
-
-```
-VSCode → commit → GitHub → Colab → run → save → GitHub → pull → VSCode
-```
-
----
-
-## 🧠 Key Research Focus
-
-This research explores the hypothesis that:
-
-> The order of client participation in federated learning affects the learning dynamics and final model performance.
-
-By systematically comparing different sequencing strategies, this project aims to provide insights into optimizing federated learning pipelines for medical imaging tasks.
-
----
-
-## 🚀 Future Work
-
-* Integration of noise-aware training
-* Robust aggregation methods
-* Domain adaptation (e.g., DANN)
-* Comparison with additional CNN architectures
-
----
-
-## 📌 Notes
-
-* Large datasets and model weights are excluded from the repository.
-* Experiments are tracked through notebooks and logs.
-* Reproducibility is maintained via structured experiments and version control.
-
----
