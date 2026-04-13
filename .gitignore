@@ -1,4 +1,3 @@
-@"
 # ======================
 # DATA
 # ======================
@@ -39,7 +38,6 @@ Thumbs.db
 .env
 
 # ======================
-# OPTIONAL LARGE RESULTS
+# LARGE MODEL ARTIFACTS
 # ======================
 results/**/models/
-"@ | Set-Content .gitignore

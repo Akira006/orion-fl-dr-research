@@ -1,0 +1,41 @@
+{
+    "npz_path": "/content/drive/MyDrive/S-Class/Orion/OrionFL/APTOS_2019/preprocessed/orion_dr_224.npz",
+    "num_samples": 3662,
+    "image_shape": [
+        224,
+        224,
+        3
+    ],
+    "x_dtype": "uint8",
+    "y_dtype": "int64",
+    "num_classes": 5,
+    "global_label_distribution": {
+        "0": 1805,
+        "1": 370,
+        "2": 999,
+        "3": 193,
+        "4": 295
+    },
+    "train_size": 2929,
+    "val_size": 733,
+    "train_ratio": 0.8,
+    "val_ratio": 0.2,
+    "train_label_distribution": {
+        "0": 1444,
+        "1": 296,
+        "2": 799,
+        "3": 154,
+        "4": 236
+    },
+    "val_label_distribution": {
+        "0": 361,
+        "1": 74,
+        "2": 200,
+        "3": 39,
+        "4": 59
+    },
+    "pixel_min": 0.0,
+    "pixel_max": 255.0,
+    "pixel_mean": 60.22978920317359,
+    "pixel_std": 59.27930454149542
+}

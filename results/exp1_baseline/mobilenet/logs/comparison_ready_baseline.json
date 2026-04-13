@@ -1,0 +1,12 @@
+{
+    "method": "Centralized",
+    "model": "mobilenet",
+    "accuracy": 0.7244201909959073,
+    "precision_macro": 0.5743049032524736,
+    "recall_macro": 0.592718528555751,
+    "f1_macro": 0.5698899420391029,
+    "auc_macro_ovr": 0.9129092231219887,
+    "train_size": 2929,
+    "val_size": 733,
+    "notes": "Global 80:20 split baseline"
+}

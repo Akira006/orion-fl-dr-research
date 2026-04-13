@@ -1,0 +1,12 @@
+{
+    "experiment_name": "exp1_baseline",
+    "model_name": "mobilenet",
+    "stage1_best_val_accuracy": 0.7189631462097168,
+    "stage1_best_val_loss": 0.6911889910697937,
+    "stage2_best_val_accuracy": 0.729877233505249,
+    "stage2_best_val_loss": 0.7025735378265381,
+    "final_train_accuracy": 0.7456469535827637,
+    "final_val_accuracy": 0.7148703932762146,
+    "final_train_loss": 0.8103072643280029,
+    "final_val_loss": 0.736236035823822
+}

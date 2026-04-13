@@ -1,0 +1,37 @@
+[
+    {
+        "class":0,
+        "precision":0.9320652174,
+        "recall":0.9501385042,
+        "f1_score":0.9410150892,
+        "support":361
+    },
+    {
+        "class":1,
+        "precision":0.42,
+        "recall":0.5675675676,
+        "f1_score":0.4827586207,
+        "support":74
+    },
+    {
+        "class":2,
+        "precision":0.7348484848,
+        "recall":0.485,
+        "f1_score":0.5843373494,
+        "support":200
+    },
+    {
+        "class":3,
+        "precision":0.4411764706,
+        "recall":0.3846153846,
+        "f1_score":0.4109589041,
+        "support":39
+    },
+    {
+        "class":4,
+        "precision":0.3434343434,
+        "recall":0.5762711864,
+        "f1_score":0.4303797468,
+        "support":59
+    }
+]
