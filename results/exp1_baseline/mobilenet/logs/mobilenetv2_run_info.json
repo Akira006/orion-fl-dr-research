@@ -1,0 +1,19 @@
+{
+    "experiment_name": "exp1_baseline",
+    "npz_path": "/content/drive/MyDrive/S-Class/Orion/OrionFL/APTOS_2019/preprocessed/orion_dr_224.npz",
+    "train_size": 488,
+    "val_size": 733,
+    "img_size": [
+        224,
+        224
+    ],
+    "batch_size": 32,
+    "num_classes": 5,
+    "class_weights": {
+        "0": 0.4049792531120332,
+        "1": 1.9918367346938775,
+        "2": 0.7338345864661654,
+        "3": 3.753846153846154,
+        "4": 2.5025641025641026
+    }
+}
