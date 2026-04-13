@@ -11,6 +11,7 @@ data/
 # MODEL FILES
 # ======================
 *.h5
+*.keras
 *.pth
 *.pt
 *.ckpt
@@ -38,8 +39,7 @@ Thumbs.db
 .env
 
 # ======================
-# RESULTS (optional)
+# OPTIONAL LARGE RESULTS
 # ======================
-results/logs/
-results/figures/
+results/**/models/
 "@ | Set-Content .gitignore
