@@ -1,0 +1,13 @@
+{
+    "method": "FL-only",
+    "variant": "loss_ascending",
+    "model": "mobilenet",
+    "accuracy": 0.626193724420191,
+    "precision_macro": 0.46012225190969636,
+    "recall_macro": 0.4969814179895874,
+    "f1_macro": 0.44891814939524943,
+    "auc_macro_ovr": 0.8556855360229099,
+    "num_rounds": 20,
+    "num_clients": 3,
+    "notes": "Global 80:20 split; FL-only with loss ascending client sequence"
+}

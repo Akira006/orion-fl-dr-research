@@ -1,0 +1,35 @@
+[
+    {
+        "client_id": 0,
+        "num_samples": 977,
+        "label_distribution": {
+            "0": 482,
+            "1": 116,
+            "2": 265,
+            "3": 48,
+            "4": 66
+        }
+    },
+    {
+        "client_id": 1,
+        "num_samples": 976,
+        "label_distribution": {
+            "0": 481,
+            "1": 95,
+            "2": 259,
+            "3": 53,
+            "4": 88
+        }
+    },
+    {
+        "client_id": 2,
+        "num_samples": 976,
+        "label_distribution": {
+            "0": 481,
+            "1": 85,
+            "2": 275,
+            "3": 53,
+            "4": 82
+        }
+    }
+]

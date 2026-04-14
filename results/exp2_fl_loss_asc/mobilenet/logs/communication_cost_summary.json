@@ -1,0 +1,12 @@
+{
+    "experiment_name": "exp2_fl_loss_asc",
+    "model_name": "mobilenet",
+    "num_clients": 3,
+    "num_rounds": 20,
+    "local_epochs": 1,
+    "estimated_model_size_mb": 8.637958526611328,
+    "estimated_total_download_mb": 518.2775115966797,
+    "estimated_total_upload_mb": 518.2775115966797,
+    "estimated_total_communication_mb": 1036.5550231933594,
+    "avg_round_train_time_sec": 99.63137789964676
+}

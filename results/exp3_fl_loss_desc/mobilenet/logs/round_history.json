@@ -1,0 +1,112 @@
+[
+    {
+        "round": 1,
+        "client_sequence": [
+            0,
+            1,
+            2
+        ],
+        "global_val_loss": 1.6306285858154297,
+        "global_val_accuracy": 0.22783082723617554,
+        "round_total_local_train_time_sec": 136.77327466011047
+    },
+    {
+        "round": 2,
+        "client_sequence": [
+            2,
+            1,
+            0
+        ],
+        "global_val_loss": 1.4862937927246094,
+        "global_val_accuracy": 0.3656207323074341,
+        "round_total_local_train_time_sec": 131.9580376148224
+    },
+    {
+        "round": 3,
+        "client_sequence": [
+            2,
+            0,
+            1
+        ],
+        "global_val_loss": 1.4026750326156616,
+        "global_val_accuracy": 0.4311050474643707,
+        "round_total_local_train_time_sec": 128.0411570072174
+    },
+    {
+        "round": 4,
+        "client_sequence": [
+            1,
+            2,
+            0
+        ],
+        "global_val_loss": 1.3024630546569824,
+        "global_val_accuracy": 0.5034106373786926,
+        "round_total_local_train_time_sec": 178.0752353668213
+    },
+    {
+        "round": 5,
+        "client_sequence": [
+            0,
+            1,
+            2
+        ],
+        "global_val_loss": 1.2368422746658325,
+        "global_val_accuracy": 0.5402455925941467,
+        "round_total_local_train_time_sec": 139.2284471988678
+    },
+    {
+        "round": 6,
+        "client_sequence": [
+            1,
+            0,
+            2
+        ],
+        "global_val_loss": 1.184095859527588,
+        "global_val_accuracy": 0.5607094168663025,
+        "round_total_local_train_time_sec": 130.37563943862915
+    },
+    {
+        "round": 7,
+        "client_sequence": [
+            0,
+            1,
+            2
+        ],
+        "global_val_loss": 1.1383798122406006,
+        "global_val_accuracy": 0.574351966381073,
+        "round_total_local_train_time_sec": 136.55492687225342
+    },
+    {
+        "round": 8,
+        "client_sequence": [
+            0,
+            1,
+            2
+        ],
+        "global_val_loss": 1.1062453985214233,
+        "global_val_accuracy": 0.577080488204956,
+        "round_total_local_train_time_sec": 136.85135674476624
+    },
+    {
+        "round": 9,
+        "client_sequence": [
+            0,
+            1,
+            2
+        ],
+        "global_val_loss": 1.0632253885269165,
+        "global_val_accuracy": 0.6016371250152588,
+        "round_total_local_train_time_sec": 134.30703616142273
+    },
+    {
+        "round": 10,
+        "client_sequence": [
+            0,
+            2,
+            1
+        ],
+        "global_val_loss": 1.0473095178604126,
+        "global_val_accuracy": 0.5961800813674927,
+        "round_total_local_train_time_sec": 131.65854573249817
+    }
+]
