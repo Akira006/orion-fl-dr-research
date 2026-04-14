@@ -18,24 +18,24 @@ The main objectives of this research are:
 
 ## 🧪 Experiment Design
 
-This project is organized into several controlled experiments:
+This project is organized into several controlled experiments on the **APTOS** dataset:
 
-1. **EDA (Exploratory Data Analysis)**
+1. **EDA (Exploratory Data Analysis)**  
    Preliminary dataset inspection, label distribution analysis, sample visualization, and validation of the global 80:20 split.
 
-2. **Baseline (Centralized Learning)**
+2. **Baseline (Centralized Learning)**  
    Training is performed using a global 80:20 train-validation split on the full dataset, without federated learning.
 
-3. **Federated Learning – Loss Ascending**
+3. **Federated Learning – Loss Ascending**  
    Clients are trained in order from lowest loss to highest loss *(easy → hard)*.
 
-4. **Federated Learning – Loss Descending**
+4. **Federated Learning – Loss Descending**  
    Clients are trained in order from highest loss to lowest loss *(hard → easy)*.
 
-5. **Federated Learning – Dataset Size Ascending**
+5. **Federated Learning – Dataset Size Ascending**  
    Clients are trained from the smallest dataset to the largest dataset.
 
-6. **Federated Learning – Dataset Size Descending**
+6. **Federated Learning – Dataset Size Descending**  
    Clients are trained from the largest dataset to the smallest dataset.
 
 ---
@@ -45,56 +45,57 @@ This project is organized into several controlled experiments:
 ```text
 orion-fl-dr-research/
 │
-├── notebooks/                      # Experiment and analysis notebooks
-│   ├── eda_aptos.ipynb
-│   ├── exp1_baseline.ipynb
-│   ├── exp2_fl_loss_asc.ipynb
-│   ├── exp3_fl_loss_desc.ipynb
-│   ├── exp4_fl_size_asc.ipynb
-│   └── exp5_fl_size_desc.ipynb
+├── notebooks/                          # Experiment and analysis notebooks
+│   └── APTOS/
+│       ├── eda_aptos.ipynb
+│       ├── exp1_baseline.ipynb
+│       ├── exp2_fl_loss_asc.ipynb
+│       ├── exp3_fl_loss_desc.ipynb
+│       ├── exp4_fl_size_asc.ipynb
+│       └── exp5_fl_size_desc.ipynb
 │
-├── src/                            # Core implementation
+├── src/                                # Core implementation
 │   ├── models/
 │   ├── federated/
 │   ├── training/
 │   └── utils/
 │
-├── configs/                        # Configuration files
+├── configs/                            # Configuration files
 │
-├── results/                        # Logs, figures, and experiment outputs
-│   ├── eda/
-│   │   └── aptos/
-│   │       ├── figures/
-│   │       └── logs/
-│   │
-│   ├── exp1_baseline/
-│   │   └── mobilenet/
-│   │       ├── figures/
-│   │       ├── logs/
-│   │       └── models/
-│   │
-│   ├── exp2_fl_loss_asc/
-│   │   └── mobilenet/
-│   │       ├── figures/
-│   │       ├── logs/
-│   │       └── models/
-│   │
-│   ├── exp3_fl_loss_desc/
-│   │   └── mobilenet/
-│   │       ├── figures/
-│   │       ├── logs/
-│   │       └── models/
-│   │
-│   ├── exp4_fl_size_asc/
-│   │   └── mobilenet/
-│   │       ├── figures/
-│   │       ├── logs/
-│   │       └── models/
-│   │
-│   └── exp5_fl_size_desc/
-│       └── mobilenet/
-│           ├── figures/
-│           ├── logs/
-│           └── models/
+├── results/                            # Logs, figures, and experiment outputs
+│   └── APTOS/
+│       ├── eda_aptos/
+│       │   ├── figures/
+│       │   └── logs/
+│       │
+│       ├── exp1_baseline/
+│       │   └── mobilenet/
+│       │       ├── figures/
+│       │       ├── logs/
+│       │       └── models/
+│       │
+│       ├── exp2_fl_loss_asc/
+│       │   └── mobilenet/
+│       │       ├── figures/
+│       │       ├── logs/
+│       │       └── models/
+│       │
+│       ├── exp3_fl_loss_desc/
+│       │   └── mobilenet/
+│       │       ├── figures/
+│       │       ├── logs/
+│       │       └── models/
+│       │
+│       ├── exp4_fl_size_asc/
+│       │   └── mobilenet/
+│       │       ├── figures/
+│       │       ├── logs/
+│       │       └── models/
+│       │
+│       └── exp5_fl_size_desc/
+│           └── mobilenet/
+│               ├── figures/
+│               ├── logs/
+│               └── models/
 │
 └── README.md
