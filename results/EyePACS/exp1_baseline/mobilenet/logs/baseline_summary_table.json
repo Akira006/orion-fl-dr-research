@@ -1,0 +1,21 @@
+[
+    {
+        "experiment_name":"exp1_baseline",
+        "model_name":"mobilenet",
+        "dataset_name":"EyePACS",
+        "setup":"Centralized Baseline",
+        "evaluation_set":"Test",
+        "accuracy":0.4583412412,
+        "precision_macro":0.2935206373,
+        "recall_macro":0.4030328854,
+        "f1_macro":0.294609419,
+        "precision_weighted":0.6521616936,
+        "recall_weighted":0.4583412412,
+        "f1_weighted":0.5192303588,
+        "auc_macro_ovr":0.7164984877,
+        "auc_weighted_ovr":0.6667066509,
+        "train_size":24588,
+        "val_size":5269,
+        "test_size":5269
+    }
+]

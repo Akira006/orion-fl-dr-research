@@ -1,0 +1,20 @@
+{
+    "method": "Centralized_Pooled",
+    "model": "mobilenet",
+    "dataset": "MultiClient",
+    "clients": [
+        "APTOS",
+        "DDR",
+        "EyePACS"
+    ],
+    "accuracy": 0.42549045082499676,
+    "precision_macro": 0.3065793650069811,
+    "recall_macro": 0.40163414354723315,
+    "f1_macro": 0.26474654951996623,
+    "auc_macro_ovr": 0.7289234123446431,
+    "train_size": 35917,
+    "val_size": 7696,
+    "test_size": 7697,
+    "total_samples": 51310,
+    "notes": "Pooled centralized baseline (APTOS+DDR+EyePACS), global 70:15:15 stratified split. Upper-bound reference for FL comparison."
+}

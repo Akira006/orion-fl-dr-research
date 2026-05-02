@@ -1,0 +1,422 @@
+[
+    {
+        "round": 1,
+        "stage": 1,
+        "strategy": "loss_ascending",
+        "sorted_order": [
+            2,
+            1,
+            0
+        ],
+        "val_loss": 1.2896134853363037,
+        "val_accuracy": 0.3617384731769562,
+        "round_time_sec": 325.91,
+        "client_metrics": [
+            {
+                "client_idx": 2,
+                "rank_in_round": 1,
+                "loss_before_train": 2.3540711402893066,
+                "loss_after_train": 1.3190795183181763,
+                "accuracy_after_train": 0.398950457572937,
+                "num_samples": 8194,
+                "train_time_sec": 54.56
+            },
+            {
+                "client_idx": 1,
+                "rank_in_round": 2,
+                "loss_before_train": 2.355576515197754,
+                "loss_after_train": 1.228234052658081,
+                "accuracy_after_train": 0.3923865258693695,
+                "num_samples": 8196,
+                "train_time_sec": 54.52
+            },
+            {
+                "client_idx": 0,
+                "rank_in_round": 3,
+                "loss_before_train": 2.3609349727630615,
+                "loss_after_train": 1.4516589641571045,
+                "accuracy_after_train": 0.1901683360338211,
+                "num_samples": 8198,
+                "train_time_sec": 52.41
+            }
+        ]
+    },
+    {
+        "round": 2,
+        "stage": 1,
+        "strategy": "loss_ascending",
+        "sorted_order": [
+            1,
+            0,
+            2
+        ],
+        "val_loss": 1.2220878601074219,
+        "val_accuracy": 0.4247485399246216,
+        "round_time_sec": 262.56,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "rank_in_round": 1,
+                "loss_before_train": 1.276352047920227,
+                "loss_after_train": 1.229469895362854,
+                "accuracy_after_train": 0.40690580010414124,
+                "num_samples": 8196,
+                "train_time_sec": 51.47
+            },
+            {
+                "client_idx": 0,
+                "rank_in_round": 2,
+                "loss_before_train": 1.2836021184921265,
+                "loss_after_train": 1.530922532081604,
+                "accuracy_after_train": 0.15503782033920288,
+                "num_samples": 8198,
+                "train_time_sec": 52.64
+            },
+            {
+                "client_idx": 2,
+                "rank_in_round": 3,
+                "loss_before_train": 1.2904378175735474,
+                "loss_after_train": 1.1310559511184692,
+                "accuracy_after_train": 0.5313644409179688,
+                "num_samples": 8194,
+                "train_time_sec": 52.34
+            }
+        ]
+    },
+    {
+        "round": 3,
+        "stage": 1,
+        "strategy": "loss_ascending",
+        "sorted_order": [
+            1,
+            0,
+            2
+        ],
+        "val_loss": 1.2262130975723267,
+        "val_accuracy": 0.40709811449050903,
+        "round_time_sec": 259.51,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "rank_in_round": 1,
+                "loss_before_train": 1.2081842422485352,
+                "loss_after_train": 1.139630675315857,
+                "accuracy_after_train": 0.5159834027290344,
+                "num_samples": 8196,
+                "train_time_sec": 51.36
+            },
+            {
+                "client_idx": 0,
+                "rank_in_round": 2,
+                "loss_before_train": 1.2135478258132935,
+                "loss_after_train": 1.4709808826446533,
+                "accuracy_after_train": 0.18577702343463898,
+                "num_samples": 8198,
+                "train_time_sec": 52.5
+            },
+            {
+                "client_idx": 2,
+                "rank_in_round": 3,
+                "loss_before_train": 1.2190190553665161,
+                "loss_after_train": 1.1833066940307617,
+                "accuracy_after_train": 0.46656090021133423,
+                "num_samples": 8194,
+                "train_time_sec": 51.82
+            }
+        ]
+    },
+    {
+        "round": 4,
+        "stage": 1,
+        "strategy": "loss_ascending",
+        "sorted_order": [
+            1,
+            0,
+            2
+        ],
+        "val_loss": 1.2319515943527222,
+        "val_accuracy": 0.40292274951934814,
+        "round_time_sec": 260.6,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "rank_in_round": 1,
+                "loss_before_train": 1.2060490846633911,
+                "loss_after_train": 1.1924165487289429,
+                "accuracy_after_train": 0.4503416419029236,
+                "num_samples": 8196,
+                "train_time_sec": 52.91
+            },
+            {
+                "client_idx": 0,
+                "rank_in_round": 2,
+                "loss_before_train": 1.2112045288085938,
+                "loss_after_train": 1.3612092733383179,
+                "accuracy_after_train": 0.2504269480705261,
+                "num_samples": 8198,
+                "train_time_sec": 51.24
+            },
+            {
+                "client_idx": 2,
+                "rank_in_round": 3,
+                "loss_before_train": 1.220781683921814,
+                "loss_after_train": 1.2435688972473145,
+                "accuracy_after_train": 0.4273858964443207,
+                "num_samples": 8194,
+                "train_time_sec": 51.79
+            }
+        ]
+    },
+    {
+        "round": 5,
+        "stage": 1,
+        "strategy": "loss_ascending",
+        "sorted_order": [
+            1,
+            0,
+            2
+        ],
+        "val_loss": 1.228170394897461,
+        "val_accuracy": 0.41981402039527893,
+        "round_time_sec": 259.94,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "rank_in_round": 1,
+                "loss_before_train": 1.208978295326233,
+                "loss_after_train": 1.169191837310791,
+                "accuracy_after_train": 0.4870668649673462,
+                "num_samples": 8196,
+                "train_time_sec": 51.88
+            },
+            {
+                "client_idx": 0,
+                "rank_in_round": 2,
+                "loss_before_train": 1.2155379056930542,
+                "loss_after_train": 1.3543957471847534,
+                "accuracy_after_train": 0.25579410791397095,
+                "num_samples": 8198,
+                "train_time_sec": 51.42
+            },
+            {
+                "client_idx": 2,
+                "rank_in_round": 3,
+                "loss_before_train": 1.2258561849594116,
+                "loss_after_train": 1.2403894662857056,
+                "accuracy_after_train": 0.44886502623558044,
+                "num_samples": 8194,
+                "train_time_sec": 51.6
+            }
+        ]
+    },
+    {
+        "round": 6,
+        "stage": 2,
+        "strategy": "loss_ascending",
+        "sorted_order": [
+            1,
+            0,
+            2
+        ],
+        "val_loss": 1.2316187620162964,
+        "val_accuracy": 0.38375404477119446,
+        "round_time_sec": 268.59,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "rank_in_round": 1,
+                "loss_before_train": 1.2021280527114868,
+                "loss_after_train": 1.2215595245361328,
+                "accuracy_after_train": 0.40153732895851135,
+                "num_samples": 8196,
+                "train_time_sec": 55.1
+            },
+            {
+                "client_idx": 0,
+                "rank_in_round": 2,
+                "loss_before_train": 1.2102086544036865,
+                "loss_after_train": 1.1967723369598389,
+                "accuracy_after_train": 0.41046595573425293,
+                "num_samples": 8198,
+                "train_time_sec": 56.15
+            },
+            {
+                "client_idx": 2,
+                "rank_in_round": 3,
+                "loss_before_train": 1.2207621335983276,
+                "loss_after_train": 1.2233211994171143,
+                "accuracy_after_train": 0.3901635408401489,
+                "num_samples": 8194,
+                "train_time_sec": 53.34
+            }
+        ]
+    },
+    {
+        "round": 7,
+        "stage": 2,
+        "strategy": "loss_ascending",
+        "sorted_order": [
+            1,
+            0,
+            2
+        ],
+        "val_loss": 1.2283978462219238,
+        "val_accuracy": 0.37938886880874634,
+        "round_time_sec": 264.57,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "rank_in_round": 1,
+                "loss_before_train": 1.206516146659851,
+                "loss_after_train": 1.2113499641418457,
+                "accuracy_after_train": 0.4016593396663666,
+                "num_samples": 8196,
+                "train_time_sec": 54.26
+            },
+            {
+                "client_idx": 0,
+                "rank_in_round": 2,
+                "loss_before_train": 1.213403582572937,
+                "loss_after_train": 1.203269600868225,
+                "accuracy_after_train": 0.40058550238609314,
+                "num_samples": 8198,
+                "train_time_sec": 53.44
+            },
+            {
+                "client_idx": 2,
+                "rank_in_round": 3,
+                "loss_before_train": 1.2235655784606934,
+                "loss_after_train": 1.2159621715545654,
+                "accuracy_after_train": 0.39321455359458923,
+                "num_samples": 8194,
+                "train_time_sec": 53.16
+            }
+        ]
+    },
+    {
+        "round": 8,
+        "stage": 2,
+        "strategy": "loss_ascending",
+        "sorted_order": [
+            1,
+            0,
+            2
+        ],
+        "val_loss": 1.2228856086730957,
+        "val_accuracy": 0.38508257269859314,
+        "round_time_sec": 264.37,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "rank_in_round": 1,
+                "loss_before_train": 1.2036752700805664,
+                "loss_after_train": 1.2018234729766846,
+                "accuracy_after_train": 0.4112981855869293,
+                "num_samples": 8196,
+                "train_time_sec": 54.22
+            },
+            {
+                "client_idx": 0,
+                "rank_in_round": 2,
+                "loss_before_train": 1.2100071907043457,
+                "loss_after_train": 1.1974653005599976,
+                "accuracy_after_train": 0.4070504903793335,
+                "num_samples": 8198,
+                "train_time_sec": 53.38
+            },
+            {
+                "client_idx": 2,
+                "rank_in_round": 3,
+                "loss_before_train": 1.2203770875930786,
+                "loss_after_train": 1.214631199836731,
+                "accuracy_after_train": 0.39443495869636536,
+                "num_samples": 8194,
+                "train_time_sec": 52.94
+            }
+        ]
+    },
+    {
+        "round": 9,
+        "stage": 2,
+        "strategy": "loss_ascending",
+        "sorted_order": [
+            1,
+            0,
+            2
+        ],
+        "val_loss": 1.212564468383789,
+        "val_accuracy": 0.3989371657371521,
+        "round_time_sec": 265.24,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "rank_in_round": 1,
+                "loss_before_train": 1.1981487274169922,
+                "loss_after_train": 1.1874865293502808,
+                "accuracy_after_train": 0.4221571385860443,
+                "num_samples": 8196,
+                "train_time_sec": 54.67
+            },
+            {
+                "client_idx": 0,
+                "rank_in_round": 2,
+                "loss_before_train": 1.2042449712753296,
+                "loss_after_train": 1.189639925956726,
+                "accuracy_after_train": 0.4176628589630127,
+                "num_samples": 8198,
+                "train_time_sec": 53.56
+            },
+            {
+                "client_idx": 2,
+                "rank_in_round": 3,
+                "loss_before_train": 1.2147595882415771,
+                "loss_after_train": 1.2054353952407837,
+                "accuracy_after_train": 0.40529656410217285,
+                "num_samples": 8194,
+                "train_time_sec": 53.03
+            }
+        ]
+    },
+    {
+        "round": 10,
+        "stage": 2,
+        "strategy": "loss_ascending",
+        "sorted_order": [
+            1,
+            0,
+            2
+        ],
+        "val_loss": 1.2140871286392212,
+        "val_accuracy": 0.39874738454818726,
+        "round_time_sec": 266.65,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "rank_in_round": 1,
+                "loss_before_train": 1.187735676765442,
+                "loss_after_train": 1.193914771080017,
+                "accuracy_after_train": 0.41532453894615173,
+                "num_samples": 8196,
+                "train_time_sec": 54.75
+            },
+            {
+                "client_idx": 0,
+                "rank_in_round": 2,
+                "loss_before_train": 1.19365394115448,
+                "loss_after_train": 1.1928037405014038,
+                "accuracy_after_train": 0.4170529544353485,
+                "num_samples": 8198,
+                "train_time_sec": 53.86
+            },
+            {
+                "client_idx": 2,
+                "rank_in_round": 3,
+                "loss_before_train": 1.2043765783309937,
+                "loss_after_train": 1.1995813846588135,
+                "accuracy_after_train": 0.4118867516517639,
+                "num_samples": 8194,
+                "train_time_sec": 52.89
+            }
+        ]
+    }
+]

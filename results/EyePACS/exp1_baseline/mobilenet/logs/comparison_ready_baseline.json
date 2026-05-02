@@ -1,0 +1,14 @@
+{
+    "method": "Centralized",
+    "model": "mobilenet",
+    "dataset": "EyePACS",
+    "accuracy": 0.4583412412222433,
+    "precision_macro": 0.29352063733598055,
+    "recall_macro": 0.40303288540155524,
+    "f1_macro": 0.29460941900740256,
+    "auc_macro_ovr": 0.7164984876532687,
+    "train_size": 24588,
+    "val_size": 5269,
+    "test_size": 5269,
+    "notes": "Global 70:15:15 split baseline, final metrics evaluated on test set"
+}

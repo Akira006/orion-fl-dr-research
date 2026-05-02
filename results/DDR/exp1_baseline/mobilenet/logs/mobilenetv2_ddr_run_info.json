@@ -1,0 +1,53 @@
+{
+    "dataset_name": "DDR",
+    "experiment_name": "exp1_baseline",
+    "model_name": "mobilenet",
+    "split_type": "global_train_val_test_split",
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "csv_path": "/content/drive/MyDrive/S-Class/Orion/OrionFL/DDR_Dataset/DR_grading.csv",
+    "image_dir": "/content/drive/MyDrive/S-Class/Orion/OrionFL/DDR_Dataset/DR_grading",
+    "filename_column": "id_code",
+    "label_column": "diagnosis",
+    "seed": 42,
+    "img_size": [
+        224,
+        224
+    ],
+    "batch_size": 32,
+    "num_classes": 5,
+    "train_size": 8765,
+    "val_size": 1878,
+    "test_size": 1879,
+    "epochs_stage1": 20,
+    "epochs_stage2": 20,
+    "learning_rate_stage1": 0.001,
+    "learning_rate_stage2": 1e-06,
+    "optimizer_stage1": "Adam",
+    "optimizer_stage2": "Adam",
+    "loss_function": "SparseCategoricalCrossentropy",
+    "unfreeze_last_n_layers": 10,
+    "class_weights": {
+        "0": 0.3996808025535796,
+        "1": 3.9750566893424035,
+        "2": 0.5593490746649649,
+        "3": 10.624242424242425,
+        "4": 2.7433489827856024
+    },
+    "artifacts": {
+        "final_model_path": "/content/drive/MyDrive/S-Class/Orion/OrionFL/orion-fl-dr-research/results/DDR/exp1_baseline/mobilenet/models/mobilenetv2_ddr_final.keras",
+        "history_stage1_path": "/content/drive/MyDrive/S-Class/Orion/OrionFL/orion-fl-dr-research/results/DDR/exp1_baseline/mobilenet/logs/history_stage1.json",
+        "history_stage2_path": "/content/drive/MyDrive/S-Class/Orion/OrionFL/orion-fl-dr-research/results/DDR/exp1_baseline/mobilenet/logs/history_stage2.json",
+        "history_combined_path": "/content/drive/MyDrive/S-Class/Orion/OrionFL/orion-fl-dr-research/results/DDR/exp1_baseline/mobilenet/logs/history_combined.json",
+        "classification_report_txt": "/content/drive/MyDrive/S-Class/Orion/OrionFL/orion-fl-dr-research/results/DDR/exp1_baseline/mobilenet/logs/classification_report.txt",
+        "classification_report_json": "/content/drive/MyDrive/S-Class/Orion/OrionFL/orion-fl-dr-research/results/DDR/exp1_baseline/mobilenet/logs/classification_report.json",
+        "confusion_matrix_values": "/content/drive/MyDrive/S-Class/Orion/OrionFL/orion-fl-dr-research/results/DDR/exp1_baseline/mobilenet/logs/confusion_matrix_values.json",
+        "summary_metrics_path": "/content/drive/MyDrive/S-Class/Orion/OrionFL/orion-fl-dr-research/results/DDR/exp1_baseline/mobilenet/logs/summary_metrics.json",
+        "training_history_figure": "/content/drive/MyDrive/S-Class/Orion/OrionFL/orion-fl-dr-research/results/DDR/exp1_baseline/mobilenet/figures/training_history.png",
+        "confusion_matrix_figure": "/content/drive/MyDrive/S-Class/Orion/OrionFL/orion-fl-dr-research/results/DDR/exp1_baseline/mobilenet/figures/confusion_matrix.png",
+        "roc_curve_figure": "/content/drive/MyDrive/S-Class/Orion/OrionFL/orion-fl-dr-research/results/DDR/exp1_baseline/mobilenet/figures/roc_curve_baseline.png",
+        "per_class_metrics_csv": "/content/drive/MyDrive/S-Class/Orion/OrionFL/orion-fl-dr-research/results/DDR/exp1_baseline/mobilenet/logs/per_class_metrics.csv",
+        "per_class_metrics_json": "/content/drive/MyDrive/S-Class/Orion/OrionFL/orion-fl-dr-research/results/DDR/exp1_baseline/mobilenet/logs/per_class_metrics.json"
+    }
+}

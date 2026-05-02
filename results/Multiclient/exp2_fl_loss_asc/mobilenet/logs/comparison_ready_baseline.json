@@ -1,0 +1,21 @@
+{
+    "method": "FL_loss_ascending",
+    "model": "mobilenet",
+    "dataset": "MultiClient",
+    "clients": [
+        "DDR",
+        "EyePACS",
+        "APTOS"
+    ],
+    "accuracy": 0.5028578851649779,
+    "precision_macro": 0.27892787794009555,
+    "recall_macro": 0.32391024793158457,
+    "f1_macro": 0.27438452385878714,
+    "auc_macro_ovr": 0.6872399446713126,
+    "fl_rounds": 10,
+    "num_clients": 3,
+    "total_train_size": 35916,
+    "global_val_size": 7696,
+    "global_test_size": 7698,
+    "notes": "FL loss_ascending, 10 rounds, 3 clients (DDR+EyePACS+APTOS). Opsi A: per-client split, global test = gabungan."
+}

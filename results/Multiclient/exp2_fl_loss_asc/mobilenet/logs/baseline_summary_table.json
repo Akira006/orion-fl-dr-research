@@ -1,0 +1,23 @@
+[
+    {
+        "experiment_name":"exp2_fl_loss_asc",
+        "dataset_name":"MultiClient",
+        "model_name":"mobilenet",
+        "setup":"FL loss_ascending",
+        "evaluation_set":"Test (Global)",
+        "accuracy":0.5028578852,
+        "precision_macro":0.2789278779,
+        "recall_macro":0.3239102479,
+        "f1_macro":0.2743845239,
+        "precision_weighted":0.5385877662,
+        "recall_weighted":0.5028578852,
+        "f1_weighted":0.5052795807,
+        "auc_macro_ovr":0.6872399447,
+        "auc_weighted_ovr":0.6637368503,
+        "fl_rounds":10,
+        "num_clients":3,
+        "total_train_size":35916,
+        "global_val_size":7696,
+        "global_test_size":7698
+    }
+]

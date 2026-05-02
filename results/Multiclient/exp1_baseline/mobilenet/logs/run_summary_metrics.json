@@ -1,0 +1,28 @@
+{
+    "experiment_name": "exp1_baseline",
+    "dataset_name": "MultiClient",
+    "model_name": "mobilenet",
+    "clients": [
+        "APTOS",
+        "DDR",
+        "EyePACS"
+    ],
+    "client_sizes": {
+        "APTOS": 3662,
+        "DDR": 12522,
+        "EyePACS": 35126,
+        "total": 51310
+    },
+    "split_type": "global_pooled_70_15_15",
+    "train_size": 35917,
+    "val_size": 7696,
+    "test_size": 7697,
+    "stage1_best_val_accuracy": 0.5445685982704163,
+    "stage1_best_val_loss": 1.1526325941085815,
+    "stage2_best_val_accuracy": 0.4334719479084015,
+    "stage2_best_val_loss": 1.2430078983306885,
+    "final_train_accuracy": 0.3741125464439392,
+    "final_val_accuracy": 0.4219074845314026,
+    "final_train_loss": 1.3464858531951904,
+    "final_val_loss": 1.2685672044754028
+}

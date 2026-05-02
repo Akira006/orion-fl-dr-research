@@ -1,0 +1,20 @@
+{
+    "experiment_name": "exp1_baseline",
+    "model_name": "mobilenet",
+    "dataset_name": "EyePACS",
+    "split_type": "global_train_val_test_split",
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "train_size": 24588,
+    "val_size": 5269,
+    "test_size": 5269,
+    "stage1_best_val_accuracy": 0.6323780417442322,
+    "stage1_best_val_loss": 1.0658432245254517,
+    "stage2_best_val_accuracy": 0.4642246961593628,
+    "stage2_best_val_loss": 1.2134438753128052,
+    "final_train_accuracy": 0.3634699881076813,
+    "final_val_accuracy": 0.45929017663002014,
+    "final_train_loss": 1.3094408512115479,
+    "final_val_loss": 1.2195838689804077
+}

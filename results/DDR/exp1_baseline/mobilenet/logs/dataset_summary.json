@@ -1,0 +1,16 @@
+{
+    "dataset_name": "DDR",
+    "num_samples": 12522,
+    "num_classes": 5,
+    "label_distribution": {
+        "0": 6266,
+        "1": 630,
+        "2": 4477,
+        "3": 236,
+        "4": 913
+    },
+    "image_dir": "/content/drive/MyDrive/S-Class/Orion/OrionFL/DDR_Dataset/DR_grading",
+    "csv_path": "/content/drive/MyDrive/S-Class/Orion/OrionFL/DDR_Dataset/DR_grading.csv",
+    "filename_column": "id_code",
+    "label_column": "diagnosis"
+}

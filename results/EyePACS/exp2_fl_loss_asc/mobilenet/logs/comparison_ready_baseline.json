@@ -1,0 +1,16 @@
+{
+    "method": "FL_loss_ascending",
+    "model": "mobilenet",
+    "dataset": "EyePACS",
+    "accuracy": 0.4042512810780034,
+    "precision_macro": 0.30932451368575326,
+    "recall_macro": 0.4085106432961325,
+    "f1_macro": 0.28312925499068964,
+    "auc_macro_ovr": 0.7332831204369813,
+    "train_size": 24588,
+    "val_size": 5269,
+    "test_size": 5269,
+    "fl_rounds": 10,
+    "num_clients": 3,
+    "notes": "FL loss_ascending, 10 rounds, 3 clients, EyePACS"
+}
