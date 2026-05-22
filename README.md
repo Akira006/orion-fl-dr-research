@@ -522,10 +522,11 @@ print(ddr_df.head(10))
 1. McMahan, B., Moore, E., Ramage, D., Hampson, S., & Arcas, B. A. (2017). **Communication-efficient learning of deep networks from decentralized data.** *AISTATS 2017.*
 2. Ganin, Y., Ustinova, E., Ajakan, H., Germain, P., Larochelle, H., Laviolette, F., ... & Lempitsky, V. (2016). **Domain-adversarial training of neural networks.** *JMLR, 17(1), 2096–2030.*
 3. Sandler, M., Howard, A., Zhu, M., Zhmoginov, A., & Chen, L. C. (2018). **MobileNetV2: Inverted residuals and linear bottlenecks.** *CVPR 2018.*
-4. Tan, M., & Le, Q. (2019). **EfficientNet: Rethinking model scaling for convolutional neural networks.** *ICML 2019.*
-5. APTOS 2019 Blindness Detection — Kaggle Dataset.
-6. DDR Dataset — Diabetic Retinopathy Grading.
-7. EyePACS — Diabetic Retinopathy Detection, Kaggle Dataset.
+4. Raj, G. M., Morley, M. G., & Eslami, M. (2024). **Federated learning for diabetic retinopathy diagnosis: Enhancing accuracy and generalizability in under-resourced regions.**
+5. Tan, M., & Le, Q. (2019). **EfficientNet: Rethinking model scaling for convolutional neural networks.** *ICML 2019.*
+6. APTOS 2019 Blindness Detection — Kaggle Dataset.
+7. DDR Dataset — Diabetic Retinopathy Grading.
+8. EyePACS — Diabetic Retinopathy Detection, Kaggle Dataset.
 
 ---
 
