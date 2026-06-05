@@ -1,0 +1,29 @@
+[
+    {
+        "client":"DDR",
+        "n_test_samples":1879,
+        "accuracy":0.0729,
+        "precision_macro":0.0146,
+        "recall_macro":0.2,
+        "f1_macro":0.0272,
+        "auc_macro_ovr":0.4832
+    },
+    {
+        "client":"EyePACS",
+        "n_test_samples":5269,
+        "accuracy":0.6223,
+        "precision_macro":0.3606,
+        "recall_macro":0.3756,
+        "f1_macro":0.3548,
+        "auc_macro_ovr":0.7386
+    },
+    {
+        "client":"APTOS",
+        "n_test_samples":550,
+        "accuracy":0.4455,
+        "precision_macro":0.3941,
+        "recall_macro":0.3498,
+        "f1_macro":0.314,
+        "auc_macro_ovr":0.7417
+    }
+]

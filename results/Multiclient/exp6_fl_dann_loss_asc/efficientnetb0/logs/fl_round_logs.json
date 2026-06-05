@@ -1,0 +1,797 @@
+[
+    {
+        "round": 1,
+        "stage": 1,
+        "strategy": "loss_ascending",
+        "lambda_grl": 0.0,
+        "effective_domain_w": 0.0,
+        "warmup": true,
+        "sorted_order": [
+            "EyePACS",
+            "APTOS",
+            "DDR"
+        ],
+        "client_losses_before": {
+            "EyePACS": 1.2836370840668678,
+            "APTOS": 1.468074731528759,
+            "DDR": 1.4737495183944702
+        },
+        "val_loss": 1.3565181493759155,
+        "val_accuracy": 0.3104209979209979,
+        "round_time_sec": 473.64,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "client_name": "EyePACS",
+                "rank_in_round": 1,
+                "num_samples": 24588,
+                "label_loss_after": 1.1700853668153286,
+                "lambda_grl": 0.0,
+                "warmup": true,
+                "train_time_sec": 201.17
+            },
+            {
+                "client_idx": 2,
+                "client_name": "APTOS",
+                "rank_in_round": 2,
+                "num_samples": 2563,
+                "label_loss_after": 0.7045927718281746,
+                "lambda_grl": 0.0,
+                "warmup": true,
+                "train_time_sec": 65.06
+            },
+            {
+                "client_idx": 0,
+                "client_name": "DDR",
+                "rank_in_round": 3,
+                "num_samples": 8765,
+                "label_loss_after": 1.6986652463674545,
+                "lambda_grl": 0.0,
+                "warmup": true,
+                "train_time_sec": 99.87
+            }
+        ]
+    },
+    {
+        "round": 2,
+        "stage": 1,
+        "strategy": "loss_ascending",
+        "lambda_grl": 0.0,
+        "effective_domain_w": 0.0,
+        "warmup": true,
+        "sorted_order": [
+            "EyePACS",
+            "APTOS",
+            "DDR"
+        ],
+        "client_losses_before": {
+            "EyePACS": 1.3029108792543411,
+            "APTOS": 1.3109214901924133,
+            "DDR": 1.5322120189666748
+        },
+        "val_loss": 1.321435809135437,
+        "val_accuracy": 0.2616943866943867,
+        "round_time_sec": 399.66,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "client_name": "EyePACS",
+                "rank_in_round": 1,
+                "num_samples": 24588,
+                "label_loss_after": 1.2134436666965485,
+                "lambda_grl": 0.0,
+                "warmup": true,
+                "train_time_sec": 156.27
+            },
+            {
+                "client_idx": 2,
+                "client_name": "APTOS",
+                "rank_in_round": 2,
+                "num_samples": 2563,
+                "label_loss_after": 0.6731257624924183,
+                "lambda_grl": 0.0,
+                "warmup": true,
+                "train_time_sec": 55.02
+            },
+            {
+                "client_idx": 0,
+                "client_name": "DDR",
+                "rank_in_round": 3,
+                "num_samples": 8765,
+                "label_loss_after": 1.7752156034111977,
+                "lambda_grl": 0.0,
+                "warmup": true,
+                "train_time_sec": 84.11
+            }
+        ]
+    },
+    {
+        "round": 3,
+        "stage": 1,
+        "strategy": "loss_ascending",
+        "lambda_grl": 0.0,
+        "effective_domain_w": 0.0,
+        "warmup": true,
+        "sorted_order": [
+            "EyePACS",
+            "APTOS",
+            "DDR"
+        ],
+        "client_losses_before": {
+            "EyePACS": 1.1456472277641296,
+            "APTOS": 1.2475923746824265,
+            "DDR": 1.7399169132113457
+        },
+        "val_loss": 1.3239120244979858,
+        "val_accuracy": 0.38019750519750517,
+        "round_time_sec": 398.96,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "client_name": "EyePACS",
+                "rank_in_round": 1,
+                "num_samples": 24588,
+                "label_loss_after": 1.201566882431507,
+                "lambda_grl": 0.0,
+                "warmup": true,
+                "train_time_sec": 156.27
+            },
+            {
+                "client_idx": 2,
+                "client_name": "APTOS",
+                "rank_in_round": 2,
+                "num_samples": 2563,
+                "label_loss_after": 0.6524123270064592,
+                "lambda_grl": 0.0,
+                "warmup": true,
+                "train_time_sec": 55.3
+            },
+            {
+                "client_idx": 0,
+                "client_name": "DDR",
+                "rank_in_round": 3,
+                "num_samples": 8765,
+                "label_loss_after": 1.5126143395900726,
+                "lambda_grl": 0.0,
+                "warmup": true,
+                "train_time_sec": 83.67
+            }
+        ]
+    },
+    {
+        "round": 4,
+        "stage": 1,
+        "strategy": "loss_ascending",
+        "lambda_grl": 0.870061661742672,
+        "effective_domain_w": 0.2,
+        "warmup": false,
+        "sorted_order": [
+            "EyePACS",
+            "APTOS",
+            "DDR"
+        ],
+        "client_losses_before": {
+            "EyePACS": 1.0921364948153496,
+            "APTOS": 1.2233304381370544,
+            "DDR": 1.9894569367170334
+        },
+        "val_loss": 1.3499573469161987,
+        "val_accuracy": 0.36382536382536385,
+        "round_time_sec": 401.99,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "client_name": "EyePACS",
+                "rank_in_round": 1,
+                "num_samples": 24588,
+                "label_loss_after": 1.292231060564518,
+                "lambda_grl": 0.870061661742672,
+                "warmup": false,
+                "train_time_sec": 157.93
+            },
+            {
+                "client_idx": 2,
+                "client_name": "APTOS",
+                "rank_in_round": 2,
+                "num_samples": 2563,
+                "label_loss_after": 0.657477006316185,
+                "lambda_grl": 0.870061661742672,
+                "warmup": false,
+                "train_time_sec": 53.92
+            },
+            {
+                "client_idx": 0,
+                "client_name": "DDR",
+                "rank_in_round": 3,
+                "num_samples": 8765,
+                "label_loss_after": 1.6893042922019958,
+                "lambda_grl": 0.870061661742672,
+                "warmup": false,
+                "train_time_sec": 86.02
+            }
+        ]
+    },
+    {
+        "round": 5,
+        "stage": 1,
+        "strategy": "loss_ascending",
+        "lambda_grl": 0.9311096086675774,
+        "effective_domain_w": 0.2,
+        "warmup": false,
+        "sorted_order": [
+            "EyePACS",
+            "APTOS",
+            "DDR"
+        ],
+        "client_losses_before": {
+            "EyePACS": 1.1059014052152634,
+            "APTOS": 1.248639538884163,
+            "DDR": 2.056435711681843
+        },
+        "val_loss": 1.3627903461456299,
+        "val_accuracy": 0.4560810810810811,
+        "round_time_sec": 401.08,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "client_name": "EyePACS",
+                "rank_in_round": 1,
+                "num_samples": 24588,
+                "label_loss_after": 1.2865676656365395,
+                "lambda_grl": 0.9311096086675774,
+                "warmup": false,
+                "train_time_sec": 155.92
+            },
+            {
+                "client_idx": 2,
+                "client_name": "APTOS",
+                "rank_in_round": 2,
+                "num_samples": 2563,
+                "label_loss_after": 0.7142358124256134,
+                "lambda_grl": 0.9311096086675774,
+                "warmup": false,
+                "train_time_sec": 54.15
+            },
+            {
+                "client_idx": 0,
+                "client_name": "DDR",
+                "rank_in_round": 3,
+                "num_samples": 8765,
+                "label_loss_after": 1.6933902129530907,
+                "lambda_grl": 0.9311096086675774,
+                "warmup": false,
+                "train_time_sec": 86.69
+            }
+        ]
+    },
+    {
+        "round": 6,
+        "stage": 1,
+        "strategy": "loss_ascending",
+        "lambda_grl": 0.9640275800758169,
+        "effective_domain_w": 0.2,
+        "warmup": false,
+        "sorted_order": [
+            "EyePACS",
+            "APTOS",
+            "DDR"
+        ],
+        "client_losses_before": {
+            "EyePACS": 1.0102730244398117,
+            "APTOS": 1.2153396867215633,
+            "DDR": 2.3177379220724106
+        },
+        "val_loss": 1.3306801319122314,
+        "val_accuracy": 0.4135914760914761,
+        "round_time_sec": 404.22,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "client_name": "EyePACS",
+                "rank_in_round": 1,
+                "num_samples": 24588,
+                "label_loss_after": 1.2356116995215416,
+                "lambda_grl": 0.9640275800758169,
+                "warmup": false,
+                "train_time_sec": 156.78
+            },
+            {
+                "client_idx": 2,
+                "client_name": "APTOS",
+                "rank_in_round": 2,
+                "num_samples": 2563,
+                "label_loss_after": 0.7072620093822479,
+                "lambda_grl": 0.9640275800758169,
+                "warmup": false,
+                "train_time_sec": 54.45
+            },
+            {
+                "client_idx": 0,
+                "client_name": "DDR",
+                "rank_in_round": 3,
+                "num_samples": 8765,
+                "label_loss_after": 1.6874067783355713,
+                "lambda_grl": 0.9640275800758169,
+                "warmup": false,
+                "train_time_sec": 87.22
+            }
+        ]
+    },
+    {
+        "round": 7,
+        "stage": 1,
+        "strategy": "loss_ascending",
+        "lambda_grl": 0.9813680813098666,
+        "effective_domain_w": 0.2,
+        "warmup": false,
+        "sorted_order": [
+            "EyePACS",
+            "APTOS",
+            "DDR"
+        ],
+        "client_losses_before": {
+            "EyePACS": 1.042364340275526,
+            "APTOS": 1.2202645353972912,
+            "DDR": 2.086496517062187
+        },
+        "val_loss": 1.4394408464431763,
+        "val_accuracy": 0.4265852390852391,
+        "round_time_sec": 405.13,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "client_name": "EyePACS",
+                "rank_in_round": 1,
+                "num_samples": 24588,
+                "label_loss_after": 1.3482329845428467,
+                "lambda_grl": 0.9813680813098666,
+                "warmup": false,
+                "train_time_sec": 157.33
+            },
+            {
+                "client_idx": 2,
+                "client_name": "APTOS",
+                "rank_in_round": 2,
+                "num_samples": 2563,
+                "label_loss_after": 0.6638206765055656,
+                "lambda_grl": 0.9813680813098666,
+                "warmup": false,
+                "train_time_sec": 54.91
+            },
+            {
+                "client_idx": 0,
+                "client_name": "DDR",
+                "rank_in_round": 3,
+                "num_samples": 8765,
+                "label_loss_after": 1.8474150523543358,
+                "lambda_grl": 0.9813680813098666,
+                "warmup": false,
+                "train_time_sec": 87.66
+            }
+        ]
+    },
+    {
+        "round": 8,
+        "stage": 2,
+        "strategy": "loss_ascending",
+        "lambda_grl": 0.9903904942256809,
+        "effective_domain_w": 0.2,
+        "warmup": false,
+        "sorted_order": [
+            "EyePACS",
+            "APTOS",
+            "DDR"
+        ],
+        "client_losses_before": {
+            "EyePACS": 1.0261816754937172,
+            "APTOS": 1.3932049572467804,
+            "DDR": 2.5296719670295715
+        },
+        "val_loss": 1.3905444145202637,
+        "val_accuracy": 0.46855509355509356,
+        "round_time_sec": 424.14,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "client_name": "EyePACS",
+                "rank_in_round": 1,
+                "num_samples": 24588,
+                "label_loss_after": 1.2011128589510918,
+                "lambda_grl": 0.9903904942256809,
+                "warmup": false,
+                "train_time_sec": 166.7
+            },
+            {
+                "client_idx": 2,
+                "client_name": "APTOS",
+                "rank_in_round": 2,
+                "num_samples": 2563,
+                "label_loss_after": 1.4536652490496635,
+                "lambda_grl": 0.9903904942256809,
+                "warmup": false,
+                "train_time_sec": 60.89
+            },
+            {
+                "client_idx": 0,
+                "client_name": "DDR",
+                "rank_in_round": 3,
+                "num_samples": 8765,
+                "label_loss_after": 2.5699093341827393,
+                "lambda_grl": 0.9903904942256809,
+                "warmup": false,
+                "train_time_sec": 91.8
+            }
+        ]
+    },
+    {
+        "round": 9,
+        "stage": 2,
+        "strategy": "loss_ascending",
+        "lambda_grl": 0.9950547536867307,
+        "effective_domain_w": 0.2,
+        "warmup": false,
+        "sorted_order": [
+            "EyePACS",
+            "APTOS",
+            "DDR"
+        ],
+        "client_losses_before": {
+            "EyePACS": 0.9553801268339157,
+            "APTOS": 1.2831078916788101,
+            "DDR": 2.5030404031276703
+        },
+        "val_loss": 1.396964430809021,
+        "val_accuracy": 0.4697245322245322,
+        "round_time_sec": 419.83,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "client_name": "EyePACS",
+                "rank_in_round": 1,
+                "num_samples": 24588,
+                "label_loss_after": 1.2051552459597588,
+                "lambda_grl": 0.9950547536867307,
+                "warmup": false,
+                "train_time_sec": 164.64
+            },
+            {
+                "client_idx": 2,
+                "client_name": "APTOS",
+                "rank_in_round": 2,
+                "num_samples": 2563,
+                "label_loss_after": 1.4386705979704857,
+                "lambda_grl": 0.9950547536867307,
+                "warmup": false,
+                "train_time_sec": 60.07
+            },
+            {
+                "client_idx": 0,
+                "client_name": "DDR",
+                "rank_in_round": 3,
+                "num_samples": 8765,
+                "label_loss_after": 2.499897465109825,
+                "lambda_grl": 0.9950547536867307,
+                "warmup": false,
+                "train_time_sec": 91.0
+            }
+        ]
+    },
+    {
+        "round": 10,
+        "stage": 2,
+        "strategy": "loss_ascending",
+        "lambda_grl": 0.9974579674738373,
+        "effective_domain_w": 0.2,
+        "warmup": false,
+        "sorted_order": [
+            "EyePACS",
+            "APTOS",
+            "DDR"
+        ],
+        "client_losses_before": {
+            "EyePACS": 1.0383814759552479,
+            "APTOS": 1.360324963927269,
+            "DDR": 2.557742640376091
+        },
+        "val_loss": 1.3946666717529297,
+        "val_accuracy": 0.4720634095634096,
+        "round_time_sec": 420.24,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "client_name": "EyePACS",
+                "rank_in_round": 1,
+                "num_samples": 24588,
+                "label_loss_after": 1.1911913007497787,
+                "lambda_grl": 0.9974579674738373,
+                "warmup": false,
+                "train_time_sec": 162.27
+            },
+            {
+                "client_idx": 2,
+                "client_name": "APTOS",
+                "rank_in_round": 2,
+                "num_samples": 2563,
+                "label_loss_after": 1.4308047145605087,
+                "lambda_grl": 0.9974579674738373,
+                "warmup": false,
+                "train_time_sec": 62.73
+            },
+            {
+                "client_idx": 0,
+                "client_name": "DDR",
+                "rank_in_round": 3,
+                "num_samples": 8765,
+                "label_loss_after": 2.5620494335889816,
+                "lambda_grl": 0.9974579674738373,
+                "warmup": false,
+                "train_time_sec": 90.9
+            }
+        ]
+    },
+    {
+        "round": 11,
+        "stage": 2,
+        "strategy": "loss_ascending",
+        "lambda_grl": 0.9986940693248945,
+        "effective_domain_w": 0.2,
+        "warmup": false,
+        "sorted_order": [
+            "EyePACS",
+            "APTOS",
+            "DDR"
+        ],
+        "client_losses_before": {
+            "EyePACS": 0.9638129658997059,
+            "APTOS": 1.3461984433233738,
+            "DDR": 2.5090315490961075
+        },
+        "val_loss": 1.3971196413040161,
+        "val_accuracy": 0.47557172557172556,
+        "round_time_sec": 417.35,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "client_name": "EyePACS",
+                "rank_in_round": 1,
+                "num_samples": 24588,
+                "label_loss_after": 1.2034172043204308,
+                "lambda_grl": 0.9986940693248945,
+                "warmup": false,
+                "train_time_sec": 162.48
+            },
+            {
+                "client_idx": 2,
+                "client_name": "APTOS",
+                "rank_in_round": 2,
+                "num_samples": 2563,
+                "label_loss_after": 1.3960378617048264,
+                "lambda_grl": 0.9986940693248945,
+                "warmup": false,
+                "train_time_sec": 59.7
+            },
+            {
+                "client_idx": 0,
+                "client_name": "DDR",
+                "rank_in_round": 3,
+                "num_samples": 8765,
+                "label_loss_after": 2.562847465276718,
+                "lambda_grl": 0.9986940693248945,
+                "warmup": false,
+                "train_time_sec": 90.85
+            }
+        ]
+    },
+    {
+        "round": 12,
+        "stage": 2,
+        "strategy": "loss_ascending",
+        "lambda_grl": 0.9993292997390673,
+        "effective_domain_w": 0.2,
+        "warmup": false,
+        "sorted_order": [
+            "EyePACS",
+            "APTOS",
+            "DDR"
+        ],
+        "client_losses_before": {
+            "EyePACS": 0.9731418564915657,
+            "APTOS": 1.3252309635281563,
+            "DDR": 2.495805114507675
+        },
+        "val_loss": 1.394959807395935,
+        "val_accuracy": 0.4768711018711019,
+        "round_time_sec": 421.17,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "client_name": "EyePACS",
+                "rank_in_round": 1,
+                "num_samples": 24588,
+                "label_loss_after": 1.1987034007906914,
+                "lambda_grl": 0.9993292997390673,
+                "warmup": false,
+                "train_time_sec": 163.48
+            },
+            {
+                "client_idx": 2,
+                "client_name": "APTOS",
+                "rank_in_round": 2,
+                "num_samples": 2563,
+                "label_loss_after": 1.4015438631176949,
+                "lambda_grl": 0.9993292997390673,
+                "warmup": false,
+                "train_time_sec": 59.94
+            },
+            {
+                "client_idx": 0,
+                "client_name": "DDR",
+                "rank_in_round": 3,
+                "num_samples": 8765,
+                "label_loss_after": 2.483080640435219,
+                "lambda_grl": 0.9993292997390673,
+                "warmup": false,
+                "train_time_sec": 90.15
+            }
+        ]
+    },
+    {
+        "round": 13,
+        "stage": 2,
+        "strategy": "loss_ascending",
+        "lambda_grl": 0.9996555948057622,
+        "effective_domain_w": 0.2,
+        "warmup": false,
+        "sorted_order": [
+            "EyePACS",
+            "APTOS",
+            "DDR"
+        ],
+        "client_losses_before": {
+            "EyePACS": 0.9247838631272316,
+            "APTOS": 1.3303254917263985,
+            "DDR": 2.498341277241707
+        },
+        "val_loss": 1.4012689590454102,
+        "val_accuracy": 0.4757016632016632,
+        "round_time_sec": 420.89,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "client_name": "EyePACS",
+                "rank_in_round": 1,
+                "num_samples": 24588,
+                "label_loss_after": 1.2111125588417053,
+                "lambda_grl": 0.9996555948057622,
+                "warmup": false,
+                "train_time_sec": 162.56
+            },
+            {
+                "client_idx": 2,
+                "client_name": "APTOS",
+                "rank_in_round": 2,
+                "num_samples": 2563,
+                "label_loss_after": 1.397192120552063,
+                "lambda_grl": 0.9996555948057622,
+                "warmup": false,
+                "train_time_sec": 59.01
+            },
+            {
+                "client_idx": 0,
+                "client_name": "DDR",
+                "rank_in_round": 3,
+                "num_samples": 8765,
+                "label_loss_after": 2.5018101632595062,
+                "lambda_grl": 0.9996555948057622,
+                "warmup": false,
+                "train_time_sec": 94.81
+            }
+        ]
+    },
+    {
+        "round": 14,
+        "stage": 2,
+        "strategy": "loss_ascending",
+        "lambda_grl": 0.9998231616599622,
+        "effective_domain_w": 0.2,
+        "warmup": false,
+        "sorted_order": [
+            "EyePACS",
+            "APTOS",
+            "DDR"
+        ],
+        "client_losses_before": {
+            "EyePACS": 0.946823388338089,
+            "APTOS": 1.3477322459220886,
+            "DDR": 2.5161140710115433
+        },
+        "val_loss": 1.3967814445495605,
+        "val_accuracy": 0.4757016632016632,
+        "round_time_sec": 418.24,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "client_name": "EyePACS",
+                "rank_in_round": 1,
+                "num_samples": 24588,
+                "label_loss_after": 1.1970120891928673,
+                "lambda_grl": 0.9998231616599622,
+                "warmup": false,
+                "train_time_sec": 162.74
+            },
+            {
+                "client_idx": 2,
+                "client_name": "APTOS",
+                "rank_in_round": 2,
+                "num_samples": 2563,
+                "label_loss_after": 1.352052092552185,
+                "lambda_grl": 0.9998231616599622,
+                "warmup": false,
+                "train_time_sec": 59.81
+            },
+            {
+                "client_idx": 0,
+                "client_name": "DDR",
+                "rank_in_round": 3,
+                "num_samples": 8765,
+                "label_loss_after": 2.525807172060013,
+                "lambda_grl": 0.9998231616599622,
+                "warmup": false,
+                "train_time_sec": 90.75
+            }
+        ]
+    },
+    {
+        "round": 15,
+        "stage": 2,
+        "strategy": "loss_ascending",
+        "lambda_grl": 0.9999092042625952,
+        "effective_domain_w": 0.2,
+        "warmup": false,
+        "sorted_order": [
+            "EyePACS",
+            "APTOS",
+            "DDR"
+        ],
+        "client_losses_before": {
+            "EyePACS": 0.9786934033036232,
+            "APTOS": 1.332163579761982,
+            "DDR": 2.459016039967537
+        },
+        "val_loss": 1.3952504396438599,
+        "val_accuracy": 0.47388253638253636,
+        "round_time_sec": 422.32,
+        "client_metrics": [
+            {
+                "client_idx": 1,
+                "client_name": "EyePACS",
+                "rank_in_round": 1,
+                "num_samples": 24588,
+                "label_loss_after": 1.204498678445816,
+                "lambda_grl": 0.9999092042625952,
+                "warmup": false,
+                "train_time_sec": 162.82
+            },
+            {
+                "client_idx": 2,
+                "client_name": "APTOS",
+                "rank_in_round": 2,
+                "num_samples": 2563,
+                "label_loss_after": 1.3929728716611862,
+                "lambda_grl": 0.9999092042625952,
+                "warmup": false,
+                "train_time_sec": 59.7
+            },
+            {
+                "client_idx": 0,
+                "client_name": "DDR",
+                "rank_in_round": 3,
+                "num_samples": 8765,
+                "label_loss_after": 2.54063780605793,
+                "lambda_grl": 0.9999092042625952,
+                "warmup": false,
+                "train_time_sec": 90.83
+            }
+        ]
+    }
+]

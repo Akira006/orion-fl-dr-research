@@ -1,0 +1,19 @@
+{
+    "method": "FL_DANN_loss_ascending",
+    "model": "efficientnetb0",
+    "dataset": "MultiClient",
+    "clients": [
+        "DDR",
+        "EyePACS",
+        "APTOS"
+    ],
+    "accuracy": 0.47557807222655235,
+    "precision_macro": 0.3145348766114095,
+    "recall_macro": 0.36889745068806334,
+    "f1_macro": 0.28115427352178,
+    "auc_macro_ovr": 0.6639640904031373,
+    "fl_rounds": 15,
+    "best_val_acc": 0.4768711018711019,
+    "lambda_gamma": 10.0,
+    "notes": "EfficientNetB0, FL+DANN Loss Ascending, MultiClient (DDR+EyePACS+APTOS)."
+}

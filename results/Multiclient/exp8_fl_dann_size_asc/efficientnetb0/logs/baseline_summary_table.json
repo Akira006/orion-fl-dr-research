@@ -1,0 +1,20 @@
+[
+    {
+        "experiment_name":"exp8_fl_dann_size_asc",
+        "model_name":"efficientnetb0",
+        "setup":"FL+DANN size_ascending",
+        "accuracy":0.4017926734,
+        "precision_macro":0.3212976999,
+        "recall_macro":0.3223198194,
+        "f1_macro":0.2537875067,
+        "precision_weighted":0.6249056375,
+        "recall_weighted":0.4017926734,
+        "f1_weighted":0.4701969076,
+        "auc_macro_ovr":0.6763715837,
+        "auc_weighted_ovr":0.6625089673,
+        "fl_rounds":15,
+        "best_val_acc":0.4077442827,
+        "lambda_gamma":10.0,
+        "domain_loss_weight":0.2
+    }
+]

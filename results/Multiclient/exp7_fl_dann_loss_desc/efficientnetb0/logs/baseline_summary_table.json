@@ -1,0 +1,20 @@
+[
+    {
+        "experiment_name":"exp7_fl_dann_loss_desc",
+        "model_name":"efficientnetb0",
+        "setup":"FL+DANN loss_descending",
+        "accuracy":0.3978955573,
+        "precision_macro":0.3812619244,
+        "recall_macro":0.3211319954,
+        "f1_macro":0.2789779285,
+        "precision_weighted":0.6469675284,
+        "recall_weighted":0.3978955573,
+        "f1_weighted":0.4660928863,
+        "auc_macro_ovr":0.6833136351,
+        "auc_weighted_ovr":0.6692769913,
+        "fl_rounds":15,
+        "best_val_acc":0.3976091476,
+        "lambda_gamma":10.0,
+        "domain_loss_weight":0.2
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "experiment_name":"exp6_fl_dann_loss_asc",
+        "model_name":"efficientnetb0",
+        "setup":"FL+DANN loss_ascending",
+        "accuracy":0.4755780722,
+        "precision_macro":0.3145348766,
+        "recall_macro":0.3688974507,
+        "f1_macro":0.2811542735,
+        "precision_weighted":0.6143639221,
+        "recall_weighted":0.4755780722,
+        "f1_weighted":0.5143224509,
+        "auc_macro_ovr":0.6639640904,
+        "auc_weighted_ovr":0.6501541966,
+        "best_val_acc":0.4768711019,
+        "lambda_gamma":10.0,
+        "fl_rounds":15
+    }
+]
